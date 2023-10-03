@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   body {
@@ -8,10 +8,11 @@ export default createGlobalStyle`
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(40, 44, 52);
   }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   }
-`
+`;
